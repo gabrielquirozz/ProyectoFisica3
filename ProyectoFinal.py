@@ -23,8 +23,8 @@ y = []
 i = 0
 puntos = tiempo/30
 while i<tiempo:
-    posicionX = velocidadx * tiempo
-    posicionY = (1/2) * aceleracion * tiempo**2
+    posicionX = velocidadx * i
+    posicionY = (1/2) * aceleracion * i**2
     x.append(posicionX)
     y.append(posicionY)
     i += puntos;
